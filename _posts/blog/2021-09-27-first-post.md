@@ -1,6 +1,6 @@
 ---
 title: "My first post"
-categories: "Blog"
+categories: "blog"
 ---
 
 This is my firs post in github page.
