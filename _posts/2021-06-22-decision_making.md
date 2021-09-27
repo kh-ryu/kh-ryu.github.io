@@ -14,10 +14,28 @@ tags:
 The characteristic of FMT\* is that it chooses sample points like PRM and grows trees like RRT\* . It expands outward, which means it never backtrack over previous node. Due to this characteristic, FMT\* outperforms previous sampling-based algorithms in terms of computational time. However, this characteristic could lead to suboptimal connection. 
 
 We can directly find their differece with visualized simulation. Simulation is based on MATLAB environment.
+{% capture fig_img %}
 ![FMT star](/assets/images/FMT_sparse.gif)
-*FMT\* algorithm*
+{% endcapture %}
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>FMT\* algorithm</figcaption>
+</figure>
+
+{% capture fig_img %}
 ![PRM star](/assets/images/PRM.gif)
-*PRM\* algorithm*
+{% endcapture %}
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>PRM\* algorithm</figcaption>
+</figure>
+
+{% capture fig_img %}
 ![RRT star](/assets/images/RRT_sparse.gif)
-*RRT\* algorithm*
+{% endcapture %}
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>RRT\* algorithm</figcaption>
+</figure>
+
 
