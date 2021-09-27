@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "About"
-    url: /about.md
+    url: /about.md/
   - title: "Study"
     url: /_pages/study/index.html
   - title: "Blog"
