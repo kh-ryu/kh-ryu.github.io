@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "My first post"
-categories: "blog"
+categories: 
+    - blog
+tags:
+    - Jekyll tutorial
 ---
 
 This is my firs post in github page.
