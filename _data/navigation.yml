@@ -3,8 +3,10 @@ main:
   - title: "About"
     url: /about/
   - title: "Study"
-    url: /study/
+    url: /_pages/study/index.html
   - title: "Blog"
-    url: /blog/
+    url: /_pages/blog/index.html
+  - title: "Project"
+    url: /_pages/project/index.html
   # - title: "Sitemap"
   #   url: /sitemap/
