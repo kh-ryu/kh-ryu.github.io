@@ -1,7 +1,6 @@
 ---
 layout: archive
 title: "My first post"
-permalink: /study/
 categories: 
     - blog
 tags:

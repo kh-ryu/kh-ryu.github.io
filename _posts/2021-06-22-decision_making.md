@@ -1,7 +1,6 @@
 ---
 layout: archive
 title: "Decision making for Autonomous Aerospace Systems"
-permalink: /study/
 categories: 
     - study
 tags:
