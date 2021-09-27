@@ -19,7 +19,7 @@ We can directly find their differece with visualized simulation. Simulation is b
 {% endcapture %}
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>FMT\* algorithm</figcaption>
+  <figcaption>FMT* algorithm</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -27,7 +27,7 @@ We can directly find their differece with visualized simulation. Simulation is b
 {% endcapture %}
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>PRM\* algorithm</figcaption>
+  <figcaption>PRM* algorithm</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -35,7 +35,7 @@ We can directly find their differece with visualized simulation. Simulation is b
 {% endcapture %}
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>RRT\* algorithm</figcaption>
+  <figcaption>RRT* algorithm</figcaption>
 </figure>
 
 
