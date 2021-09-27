@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "About me"
+permalink: /about/
 categories: 
     - intro
 tags:

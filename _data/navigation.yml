@@ -1,10 +1,10 @@
 # main links
 main:
   - title: "About"
-    url: /_posts/about.html
+    url: /about/
   - title: "Study"
-    url: /_pages/study/index.html
+    url: /study/
   - title: "Blog"
-    url: /_pages/blog/index.html
+    url: /blog/
   # - title: "Sitemap"
   #   url: /sitemap/
