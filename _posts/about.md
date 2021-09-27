@@ -3,7 +3,7 @@ layout: archive
 title: "About me"
 permalink: /about/
 categories: 
-    - intro
+    - about
 tags:
     - Jekyll_tutorial
 ---
