@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archive
 title: "My first post"
 categories: 
     - blog
