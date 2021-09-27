@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "About me"
-author_profile: true
-toc: true
-toc_sticky: true
-toc_label: "MYSELF"
+categories: 
+    - intro
+tags:
+    - Jekyll_tutorial
 ---
 
-This is about me
+Hi. Nice to meet you all.   
+I'm Kyunghyun Ryu from Seoul National University, South Korea.Thank you for visiting my website. This is where I upload my research work and personal experiences. Feel free to explore it!
