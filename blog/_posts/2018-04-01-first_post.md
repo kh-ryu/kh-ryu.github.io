@@ -1,8 +1,6 @@
 ---
 layout: archive
 title: "My first post"
-categories: 
-    - blog
 tags:
     - Jekyll tutorial
 ---

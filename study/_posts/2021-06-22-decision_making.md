@@ -1,8 +1,6 @@
 ---
 layout: archive
 title: "Decision making for Autonomous Aerospace Systems"
-categories: 
-    - study
 tags:
     - Path planning
     - MATLAB
