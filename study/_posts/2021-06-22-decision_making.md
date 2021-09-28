@@ -5,7 +5,8 @@ tags:
     - Path planning
     - MATLAB
 ---
-
+<br/>
+<br/>
 This is term project form "Decision making for Autonomous Aerospace Systems".   
 The class covered various topics for unmanned vehicle platforms.   
 For path planning, potential field, graph search, and sampling-based algorithms are introduced.   
