@@ -4,8 +4,8 @@ main:
     url: /about/
   - title: "Study"
     url: /_pages/study/index.html
-  - title: "Project"
-    url: /_pages/project/index.html
+  - title: "Experiences"
+    url: /_pages/experience/index.html
   - title: "Blog"
     url: /_pages/blog/index.html
   # - title: "Sitemap"
