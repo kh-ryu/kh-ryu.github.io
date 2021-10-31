@@ -58,3 +58,7 @@ We can directly find their differece with visualized simulation. Simulation is b
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
   <figcaption>RRT* algorithm</figcaption>
 </figure>
+
+[1] Janson, Lucas, et al. "Fast marching tree: A fast marching sampling-based method for optimal motion planning in many dimensions." The International journal of robotics research 34.7 (2015): 883-921.<br>
+[2] Schmerling, Edward, Lucas Janson, and Marco Pavone. "Optimal sampling-based motion planning under differential constraints: the driftless case." 2015 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2015.<br>
+[3] Karaman, Sertac, and Emilio Frazzoli. "Sampling-based algorithms for optimal motion planning." The international journal of robotics research 30.7 (2011): 846-894.
