@@ -7,9 +7,9 @@ tags:
 ---
 <br/>
 
-<center>
-Abstract: My goal is detecting people in the water with drones with multi-spectral camera. To bypass the alignment problems in Micasense camera, I modified Global Contrast based saliency detection algorithm for mulit-spectral images. My code well detected saliency object with speed about 8~10 frame/s
-</center>
+**Abstract**: My goal is detecting people in the water with drones with multi-spectral camera. To bypass the alignment problems in Micasense camera, I modified Global Contrast based saliency detection algorithm for mulit-spectral images. My code well detected saliency object with speed about 8~10 frame/s
+
+------------------
 
 # Background
 For the search and rescue mission in the water, drones should have to detect human body in the middle of vast ocean. While current RGB camera could suffer from recognizing human, multi-spectral camera with infrared spectrum could outperform RGB camera. Due to multi-lens system of multispectral camera, image of each band should be aligned after taking a photo. However, aligning ocean image would degrade due to lack of features to use for alginment.
