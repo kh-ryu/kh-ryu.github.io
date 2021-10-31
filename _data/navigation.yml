@@ -2,8 +2,10 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Study"
-    url: /_pages/study/index.html
+  - title: "Project"
+    url: /_pages/project/index.html
+  - title: "Research"
+    url: /_pages/research/index.html
   - title: "Experiences"
     url: /_pages/experience/index.html
   - title: "Blog"
