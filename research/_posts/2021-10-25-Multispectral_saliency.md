@@ -34,7 +34,7 @@ Pixel contrast method calculates saliency value of each pixel. In multi-spectral
 ## Region Contrast
 Region Contrast method first segments image to several regions. I used k-means clustering for regional segmentation. Next, saliency value is calculated for each region using color contrast with other regions.
 
-![Region_Contrast](/assets/images/0075 saliency.png){: width="60%" height="60%"}
+![Region_Contrast](/assets/images/0075 Saliency.png){: width="60%" height="60%"}
 
 # Thresholding
 To find most salient object, I used thresholding to saliency value. The result of Histogram Contrast and Region Contrast after thresholding is as follows
