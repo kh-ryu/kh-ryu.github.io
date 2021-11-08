@@ -8,7 +8,8 @@ tags:
 
 <center>
 <strong>Space Challenger camp</strong> <br>
-Organized by SNU rocket team HANARO, Main Director - Kyunghyun Ryu <br>
+Organized by SNU rocket team HANARO<br>
+<strong>Main Director - Kyunghyun Ryu </strong> <br>
 Funded by Korea Foundation for the Advancement of Science & Creativity
 </center>
 

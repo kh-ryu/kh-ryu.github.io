@@ -10,4 +10,4 @@ Making a website is one of the effective tools for sharing a researcher's work t
 
 For who are interested in making their own website, I recommend to read this article!
 
-["How to start blogging as a researcher"]{https://www.academictransfer.com/en/blog/how-to-start-blogging-as-a-researcher/}
+["How to start blogging as a researcher"](https://www.academictransfer.com/en/blog/how-to-start-blogging-as-a-researcher/)
