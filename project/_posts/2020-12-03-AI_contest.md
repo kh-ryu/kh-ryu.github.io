@@ -25,15 +25,15 @@ The contest aimed to develop an object detection code with given drone-captured 
 Due to the limited time, we thought training the existing network would be reasonable. We chose YOLO-v3 for the object detector. It gives better mAP than other real-time detection systems, and its pre-trained weight works well with different test sets (more generalized). Our training used YOLOv3-416 pre-trained weight.
 
 ## Parameter tuning
-We modified several hyperparameters for effective training. 
+We modified several hyperparameters for effective training. Main reference for our parameter tuning is [1] [Reference](https://github.com/pjreddie/darknet/issues/224).
 
-First, we used learning rate decay during training. A large learning rate at the start of network training could decrease loss very fast. However, a large learning rate prevents the network from converging to a local minimum and oscillates as training continues. On the contrary, learning rate decay accelerates learning in the initial phase and prevents oscillation in the final stage. We used a step decaying learning rate with regard to the training epoch.
->According to [1], we can obtain the same learning curve by increasing the batch size instead of learning rate decay. However, usually batch size is limited to GPU memory.
+During the training, a large learning rate at the start of training could decrease loss very fast. However, a large learning rate prevents the network from converging to a local minimum and oscillates as training continues. On the contrary, learning rate decay accelerates learning in the initial phase and prevents oscillation in the final stage. According to [1], we can obtain the same learning curve with learning rate decay by increasing the batch size.
+
 ![learning rate](/assets/images/learning_rate.jpg) [1]
 
+Therefore, we modified the subdivision of YOLO to speed up the training process. Subdivision is how many mini-batches it splits its batch in. By reducing the subdivision rate, YOLO sends more images to GPU simultaneously (Increasing mini-batch size). It not only speeds up the training but also generalizes the training more.
 
-Also, we modified the subdivision of YOLO to speed up the training process. Subdivision is how many mini-batches it splits its batch in. By reducing the subdivision rate, YOLO sends more images to GPU simultaneously (Increasing mini-batch size). It not only speeds up the training but also generalizes the training more.
-[Reference](https://github.com/pjreddie/darknet/issues/224)
+However, usually batch size is limited to GPU memory. Therefore, we also used a step decaying learning rate with regard to the training epoch. 
 
 ## Data Augmentation
 In the given dataset, some classes were suffered from the small number of images in those classes. We leveraged data augmentation for the classes with few training images. Data augmentation is increasing the number of training data with minor alterations. We used flip and rotation for several images in such classes.
@@ -41,5 +41,7 @@ In the given dataset, some classes were suffered from the small number of images
 # Results
 
 ![Result](/assets/images/ai_detected.jpg)
+
+We successfully detected and classified objects in the images. Moreover, we ranked 2nd highest mean Average Precision (mAP) in the contest.
 
 [1] Smith, Samuel L., et al. "Don't decay the learning rate, increase the batch size." arXiv preprint arXiv:1711.00489 (2017).
