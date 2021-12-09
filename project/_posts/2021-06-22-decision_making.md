@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "The review of FMT* sampling-based algorithm"
+title: "Decision Making for Autonomous Aerospace Systems"
 tags:
     - Path planning
     - MATLAB
