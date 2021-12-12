@@ -48,4 +48,11 @@ The result of saliency detection was nearly identical. However, the computationa
 |---|---|---|
 | Computational time(s) | 0.12120 | 0.41966 |
 
-[1] Cheng, Ming-Ming, et al. "Global contrast based salient region detection." IEEE transactions on pattern analysis and machine intelligence 37.3 (2014): 569-582.
+# ROS implementation
+I contributed to [micasense_ros](https://github.com/Ehsan67m/micasense_ros.git) package for processing Micasense multispectral image in DJI Manifold-2 (NVIDIA Jetson TX2). SaliencyHC and SaliencyRC receives raw images from micasense camera and calculate saliency map with Histogram Contrast and Region Contrast each. The viewer node is given to check the results. You can find more details in the github link above.
+
+![Saliency_result1](/assets/images/salieny_result1.JPG)
+![Saliency_result2](/assets/images/salieny_result2.JPG)
+
+[1] Cheng, Ming-Ming, et al. "Global contrast based salient region detection."IEEE transactions on pattern analysis and machine intelligence 37.3 (2014): 569-582.
+[2] Wang, Q., Yan, P., Yuan, Y., & Li, X. (2013). Multi-spectral saliency detection. Pattern Recognition Letters, 34(1), 34-41.
