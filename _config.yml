@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-KR"
-title                    : "Kyunghyun Ryu"
+title                    : "Kanghyun Ryu"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Kyunghyun Ryu"
+name                     : "Kanghyun Ryu"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "kh-ryu/kh-ryu.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Kyunghyun's Website" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Kanghyun's Website" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -101,43 +101,43 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kyunghyun Ryu"
+  name             : "Kanghyun Ryu"
   avatar           : "assets/images/1606033678092-27.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Aerospace engineering undergraduate in Seoul National University"
-  location         : "Seoul"
-  email            : tomryou@snu.ac.kr
+  bio              : "Robotics engineer, Graduate student"
+  location         : "Champaign"
+  email            : kr37@illinois.edu
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:tomryou@snu.ac.kr"
+      url: "mailto:kr37@illinois.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://kh-ryu.github.io"
     - label: "CV"
       icon: "fas fa-fw fa-file-pdf" 
-      url: "/assets/files/Kyunghyun_Ryu_CV.pdf"
+      url: "/assets/files/Kanghyun_Ryu_CV.pdf"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/profile.php?id=100004113570695"
+      url: "https://twitter.com/KanghyunRyu1"
+#     - label: "Facebook"
+#       icon: "fab fa-fw fa-facebook-square"
+#       url: "https://www.facebook.com/profile.php?id=100004113570695"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kh-ryu"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/tomryou/"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       url: "https://www.instagram.com/tomryou/"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/profile.php?id=100004113570695"
+      url:https://twitter.com/KanghyunRyu1
+#     - label: "Facebook"
+#       icon: "fab fa-fw fa-facebook-square"
+#       url: "https://www.facebook.com/profile.php?id=100004113570695"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kh-ryu"
@@ -149,7 +149,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/tomryou/"
+      # url: "https://www.instagram.com/tomryou/"
 
 
 # Reading Files
