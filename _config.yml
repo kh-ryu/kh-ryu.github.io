@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Kanghyun Ryu"
-  avatar           : "assets/images/1606033678092-27.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/Kanghyun Ryu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Robotics engineer, Graduate student"
   location         : "Champaign"
   email            : kr37@illinois.edu
