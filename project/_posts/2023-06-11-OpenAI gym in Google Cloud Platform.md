@@ -45,7 +45,7 @@ You can check how much computing you can use with $300 free credit in [Pricing C
 <img width="421" alt="E2 monthly" src="https://github.com/kh-ryu/kh-ryu.github.io/assets/45212225/a6393b6f-a9a8-4947-a25e-57d4b4855256">
 
 
-You can start your free trial by creating an account or signing in to (Google Cloud Platform)[https://cloud.google.com] and select _Start Free_. When signing in, __I recommend to use personal account rather than university or buisness account__. If you don't use personal account, you'll lose some freedom to manage your project by organization manager. You'll have to enter your billing information but it won't be charged untill you use all the free credit and decide to upgrade to the full account. 
+You can start your free trial by creating an account or signing in to [Google Cloud Platform](https://cloud.google.com) and select _Start Free_. When signing in, __I recommend to use personal account rather than university or buisness account__. If you don't use personal account, you'll lose some freedom to manage your project by organization manager. You'll have to enter your billing information but it won't be charged untill you use all the free credit and decide to upgrade to the full account. 
 
 After logging in, the main console shows the remaining credit and the option to upgrade to full account. 
 
@@ -61,7 +61,7 @@ __My First Project__ is generated as you sign in to GCP. We'll start from here b
 If you want to use GPU for your virtual machine, you should request for quota and get a permission. If cpu is fine for your job for now, you can skip this part.
 __To use GPU, you should upgrade your account to Full account. This can charge for the GPU usage through your billing information after you use all the free credit__
 
-I haven't go through this process yet. However, it is well summarized in (here)[https://stackoverflow.com/questions/45227064/how-to-request-gpu-quota-increase-in-google-cloud].
+I haven't go through this process yet. However, it is well summarized in [here](https://stackoverflow.com/questions/45227064/how-to-request-gpu-quota-increase-in-google-cloud).
 
 ### 4) Create VM instance
 After creating the project, you can see the project overview in the dashboard. 
@@ -73,8 +73,7 @@ To creat a VM instance, go through Compute Engine => VM instances
 <img width="470" alt="VM instance" src="https://github.com/kh-ryu/kh-ryu.github.io/assets/45212225/fca3558f-b2de-40e9-b5b5-304aa944a254">
 
 __Create an instance__ helps you creating a new VM instance. You can set up an instance name, region, and machine configuration in here. 
-__Pricing depends on your region selection and there are some low CO2 options. Also, there can be some unavailable machine options depend on your region selection
-__
+__Pricing depends on your region selection and there are some low CO2 options. Also, there can be some unavailable machine options depend on your region selection__
 
 For machine configuration, I chose general purpose, e2-standard-8. However, it should depend on your project purpose and computation requirements. If you need GPUs, people usually uses K80, P100, and V100. They are cheaper in this order. You can find their specs in [K80 vs P100](https://www.xcelerit.com/computing-benchmarks/insights/nvidia-p100-vs-k80-gpu/) and [P100 vs V100](https://www.xcelerit.com/computing-benchmarks/insights/benchmarks-deep-learning-nvidia-p100-vs-v100-gpu/)
 
@@ -93,11 +92,11 @@ If you choose _open in browser window_, there will be a pop-up window terminal w
 
 <img width="902" alt="open in browser" src="https://github.com/kh-ryu/kh-ryu.github.io/assets/45212225/7ece4e86-a461-4976-8194-0bf46fe8fc2d">
 
-If you don't want to opening browser, logging in to GCP, and going through opening terminal in web browser, you can set up gclound and access through your local terminal. To do this, you should install Google Clound SDK by following (SDK Documentation[https://cloud.google.com/sdk/docs/install-sdk]. 
+If you don't want to go through a sequence of opening browser, logging in to GCP, and opening terminal in web browser every time you connect, you can set up gclound and access through your local terminal. To do this, you should install Google Clound SDK by following [SDK Documentation](https://cloud.google.com/sdk/docs/install-sdk). 
 
 After the install, you can go into _view gcloud command_ and copy and paste that command into your local terminal.
 
-Finally, your all set with setting up your VM machine!
+Finally, you are all set with setting up your VM machine!
 
 ## 2. Install OpenAI gym and mujoco-py
 Before you start your project, you should install several packages.
@@ -180,6 +179,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia
 export PATH="$LD_LIBRARY_PATH:$PATH" 
 export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so' >> ~/.bashrc
 ```
+Remove second line if you're not using GPU
 
 * Source bashrc
 ```shell
