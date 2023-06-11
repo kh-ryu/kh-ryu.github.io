@@ -19,16 +19,23 @@ Before using GCP, I tried on using Google Colab. However, I felt it is highly li
 
 ## Content
 ### 1. Setting up Virtual Machine in GCP
-1) Sign up to Google Cloud Platform
-2) Create a Project
-3) Quota request(For GPU)
-4) Creat VM instance
-5) Install Google Cloud SDK
+1) Sign up to Google Cloud Platform. 
+
+2) Create a Project. 
+
+3) Quota request(For GPU). 
+
+4) Creat VM instance. 
+
+5) Install Google Cloud SDK. 
 
 ### 2. Install OpenAI gym and mujoco-py
 1) Install basic packages
+
 2) Install OpenAI gym
+
 3) Install mujoco-py(For users using mujoco environments in OpenAI gym)
+
 4) Install garage
 
 ## 1. Setting up Virtual Machine in GCP
