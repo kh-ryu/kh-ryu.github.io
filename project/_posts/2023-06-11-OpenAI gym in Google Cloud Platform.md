@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "How to use OpenAI gym in Google Cloud Platform"
+title: "How to use OpenAI gym in Google Cloud Platform(GCP)"
 tags:
     - Google Cloud Platform
     - Reinforcement Learning
@@ -8,8 +8,6 @@ tags:
     - Mujoco
 ---
 <br/>
-
-# How to use OpenAI gym in Google Cloud Platform(GCP)
 
 _Contents of this post mainly comes from [JEINA DE'VLOG](https://jeinalog.tistory.com/8) and several reference blog posts. Reference links are inserted in the paragraph_
 
