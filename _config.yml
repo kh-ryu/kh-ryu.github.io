@@ -104,12 +104,12 @@ author:
   name             : "Kanghyun Ryu"
   avatar           : "assets/images/Kanghyun Ryu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Robotics engineer, Graduate student"
-  location         : "Champaign"
-  email            : kr37@illinois.edu
+  location         : "Berkeley"
+  email            : kanghyun.ryu@berkeley.edu
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:kr37@illinois.edu"
+      url: "mailto:kanghyun.ryu@berkeley.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://kh-ryu.github.io"
@@ -128,6 +128,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://www.instagram.com/tomryou/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/kanghyun-ryu-49a145208/"
 
 # Site Footer
 footer:
