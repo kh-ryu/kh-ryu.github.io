@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-KR"
-title                    : "Kanghyun Ryu"
+title                    : # "Kanghyun Ryu"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Kanghyun Ryu"
-description              : "An amazing website."
+description              : # "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "kh-ryu/kh-ryu.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,16 +103,16 @@ analytics:
 author:
   name             : "Kanghyun Ryu"
   avatar           : "assets/images/Kanghyun Ryu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Robotics engineer, Graduate student"
+  bio              : "Ph.D. student"
   location         : "Berkeley"
   email            : kanghyun.ryu@berkeley.edu
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:kanghyun.ryu@berkeley.edu"
+      # url: "mailto:kanghyun.ryu@berkeley.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://kh-ryu.github.io"
+      # url: "https://kh-ryu.github.io"
     - label: "CV"
       icon: "fas fa-fw fa-file-pdf" 
       url: "/assets/files/Kanghyun_Ryu_CV.pdf"
@@ -137,13 +137,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/KanghyunRyu1
+      # url: https://twitter.com/KanghyunRyu1
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://www.facebook.com/profile.php?id=100004113570695"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/kh-ryu"
+      # url: "https://github.com/kh-ryu"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url: "https://git.mistlab.ca/kryu"
