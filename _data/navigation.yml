@@ -2,8 +2,6 @@
 main:
   - title: "Project"
     url: /_pages/project/index.html
-  - title: "Research"
-    url: /_pages/research/index.html
   - title: "Experiences"
     url: /_pages/experience/index.html
   - title: "Blog"
