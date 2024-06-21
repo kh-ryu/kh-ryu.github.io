@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Kanghyun Ryu"
-  avatar           : "assets/images/Kanghyun Ryu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/Kanghyun_bara.webp" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Ph.D. student"
   location         : "Berkeley"
   email            : kanghyun.ryu@berkeley.edu
