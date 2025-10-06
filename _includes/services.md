@@ -14,7 +14,7 @@
 
 <h4 style="margin:0 10px 0;">Journal Reviewers</h4>
 
-<ul style="margin:0 0 20px;">
+<ul style="margin:0 0 40px;">
   <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=87"><autocolor>Transactions on Control System Technology (TCST)</autocolor></a></li>
   <li><a href="https://www.ieee-ras.org/publications/ra-l"><autocolor>Robotics and Automation Letters (RA-L)</autocolor></a></li>
 </ul>
