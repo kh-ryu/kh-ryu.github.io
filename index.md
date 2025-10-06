@@ -27,21 +27,21 @@ During my PhD, I worked on [Honda Research Institute (HRI)](https://usa.honda-ri
 
 ## Work & Teaching Experiences
 
-### Work Experience
+#### Work Experience
 - **Honda Research Institute, Cooperative Mobility Research Team:** Developed an interaction-aware motion planning algorithm for autonomous driving in dense traffic lane-changing scenario.
 
-### Teaching Experience
+#### Teaching Experience
 - **ME 132, Dynamic Systems and Feedback**, UC Berkeley.
 
 ## Honors & Awards
 
-### Fellowship
+#### Fellowship
 - **William C. Webster Graduate Fellowship**, University of California Berkeley, 2024
 - **Robert Beatty Fellowship**, University of Illinois Urbana-Champaign, 2022
 
-### Honors
+#### Honors
 - **AIAA Scitech ISTC best student paper finalist**, AIAA Intelligent Systems Technical Committee (ISTC), 2025
 
-### Travel Grants
+#### Travel Grants
 - **UC Berkeley Conference Travel Grant**, University of California Berkeley, 2024
 - **IEEE RAS Travel Grant for ICRA**, IEEE Robotics and Automation Society, 2024
