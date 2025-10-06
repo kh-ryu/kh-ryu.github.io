@@ -25,6 +25,8 @@ During my PhD, I worked on [Honda Research Institute (HRI)](https://usa.honda-ri
 
 {% include_relative _includes/services.md %}
 
+
+
 ## Work & Teaching Experiences
 
 #### Work Experience
@@ -32,6 +34,8 @@ During my PhD, I worked on [Honda Research Institute (HRI)](https://usa.honda-ri
 
 #### Teaching Experience
 - **ME 132, Dynamic Systems and Feedback**, UC Berkeley.
+
+
 
 ## Honors & Awards
 
