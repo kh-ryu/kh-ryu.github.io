@@ -92,11 +92,66 @@ Install and run:
 
 ```bash
 bundle install
+bundle exec jekyll serve
+```
+
+**Note for newer Ruby versions (3.0+):** If you encounter dependency issues, you may need to add additional gems to your `Gemfile`:
+
+```bash
+# Add rexml gem if you get REXML parser errors
+bundle add rexml
+
+# If webrick is not already in your Gemfile
 bundle add webrick
-bundle exec jekyll server
+```
+
+If you experience issues with file watching or auto-regeneration, you can serve the site without watching:
+
+```bash
+bundle exec jekyll serve --no-watch
+```
+
+Or use a different port if the default port 4000 is already in use:
+
+```bash
+bundle exec jekyll serve --no-watch --port 4001
 ```
 View the live page using `localhost`:
 <http://localhost:4000>. You can get the HTML files in `_site` folder.
+
+## Troubleshooting
+
+### Common Issues with Newer Ruby Versions
+
+If you're using Ruby 3.0 or newer, you might encounter the following issues:
+
+#### REXML Parser Error
+```
+cannot load such file -- rexml/parsers/baseparser (LoadError)
+```
+**Solution:** Add the `rexml` gem to your `Gemfile`:
+```ruby
+gem "rexml", "~> 3.2"
+```
+Then run `bundle install`.
+
+#### File Watching Issues
+```
+no implicit conversion of Hash into Integer (TypeError)
+```
+**Solution:** Use the `--no-watch` flag when serving:
+```bash
+bundle exec jekyll serve --no-watch
+```
+
+#### Port Already in Use
+```
+Address already in use - bind(2) for 127.0.0.1:4000 (Errno::EADDRINUSE)
+```
+**Solution:** Use a different port:
+```bash
+bundle exec jekyll serve --port 4001
+```
 
 ### Using the HTML version
 

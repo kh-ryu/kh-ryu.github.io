@@ -1,22 +1,89 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "CRAFT: Coaching Reinforcement Learning Autonomously using Foundation Models for Multi-Robot Coordination Tasks"
+    authors: S. Choi*, <strong>K. Ryu*</strong>, J. Ock, and N. Mehr (*Equal contribution)
+    conference_short: Preprint
+    conference: Preprint, 2025.
+    arxiv: "https://arxiv.org/abs/2509.14380"
+    code: "https://github.com/labicon/CRAFT"
+    page: "https://iconlab.negarmehr.com/CRAFT/"
+    # bibtex: "#"
+    image: "assets/img/craft_teaser.gif"
+    # notes: ""
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "IANN-MPPI: Interaction-Aware Neural Network-Enhanced Model Predictive Path Integral Approach for Autonomous Driving"
+    authors: <strong>K. Ryu</strong>, M. Sung, P. Gupta, J. D'sa, F. M. Tariq, D. Isele, and S. Bae
+    conference_short: ITSC
+    conference: International Conference on Intelligent Transportation Systems <strong>(ITSC)</strong>, 2025.
+    arxiv: "https://arxiv.org/abs/2507.11940"
+    # code: "#"
+    page: "https://sites.google.com/berkeley.edu/iann-mppi"
+    # bibtex: "#"
+    image: "assets/img/iann-mppi_teaser.gif"
+    # notes: ""
+
+  - title: "DDAT: Diffusion policies enforcing Dynamically Admissible robot Trajectories"
+    authors: JB. Bouvier, <strong>K. Ryu</strong>, K. Nagpal, Q. Liao, K. Sreenath, and N. Mehr
+    conference_short: RSS
+    conference: "Robotics: Science and Systems <strong>(RSS)</strong>, 2025."
+    arxiv: "https://arxiv.org/abs/2502.15043"
+    code: "https://github.com/labicon/DDAT/tree/main/code"
+    page: "https://iconlab.negarmehr.com/DDAT/"
+    # bibtex: "#"
+    image: "assets/img/DDAT_teaser.gif"
+    # notes: ""
+
+  - title: "Risk-Sensitive Orbital Debris Collision Avoidance using Distributionally Robust Chance Constraints"
+    authors: <strong>K. Ryu</strong>, JB. Bouvier, S. Lalani, S. Eggl, and N. Mehr
+    conference_short: AIAA SCITECH
+    conference: AIAA SCITECH Forum, 2025.
+    arxiv: "https://arxiv.org/abs/2412.17358"
+    # code: "#"
+    # page: "#"
+    # bibtex: "#"
+    # image: "#"
+    # notes: ""
+
+  - title: "CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills using Large Language Models"
+    authors: <strong>K. Ryu</strong>, Q. Liao, Z. Li, P. Delgosha, K. Sreenath, and N. Mehr
+    conference_short: ICRA
+    conference: International Conference on Robotics and Automation <strong>(ICRA)</strong>, 2025.
+    arxiv: "https://arxiv.org/abs/2409.18382"
+    code: "https://github.com/labicon/CurricuLLM"
+    page: "https://iconlab.negarmehr.com/CurricuLLM/"
+    # bibtex: "#"
+    image: "assets/img/CurricuLLM_teaser.gif"
+    # notes: ""
+
+  - title: "Adaptive Learning from Demonstration in Heterogeneous Agents: Concurrent Minimization and Maximization of Surprise in Sparse Reward Environments"
+    authors: E. Clark*, <strong>K. Ryu*</strong>, and N. Mehr (*Equal contribution)
+    conference_short: L4DC
+    conference: Learning for Dynamics & Control Conference <strong>(L4DC)</strong>, 2024.
+    arxiv: "https://arxiv.org/abs/2405.14199"
+    code: "https://github.com/labicon/Surprise_based_Teaching"
+    # page: "#"
+    # bibtex: "#"
+    # image: "#"
+    # notes: ""
+
+  - title: "Integrating Predictive Motion Uncertainties with Distributionally Robust Risk-Aware Control for Safe Robot Navigation in Crowds"
+    authors: <strong>K. Ryu</strong> and N. Mehr
+    conference_short: ICRA
+    conference: International Conference on Robotics and Automation <strong>(ICRA)</strong>, 2024.
+    arxiv: "https://arxiv.org/abs/2403.05081"
+    code: "https://github.com/labicon/DRCC-MPC"
+    # page: "#"
+    # bibtex: "#"
+    image: "assets/img/DRCC-MPC_teaser.gif"
+    # notes: ""
+
+  - title: "Performance Comparison between EKF and UKF in GPS/INS Low Observability Conditions"
+    authors: <strong>K. Ryu</strong>, J. Kang, and D. Lee
+    conference_short: ICCAS
+    conference: The 21th International Conference on Control, Automation, and Systems <strong>(ICCAS)</strong>, 2021.
+    arxiv: "https://ieeexplore.ieee.org/document/9649748"
+    # code: "#"
+    # page: "#"
+    # bibtex: "#"
+    # image: "#"
+    # notes: ""
