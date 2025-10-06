@@ -25,10 +25,12 @@ During my PhD, I worked on [Honda Research Institute (HRI)](https://usa.honda-ri
 
 {% include_relative _includes/services.md %}
 
-## Work Experiences
+## Work & Teaching Experiences
+
+### Work Experience
 - **Honda Research Institute, Cooperative Mobility Research Team:** Developed an interaction-aware motion planning algorithm for autonomous driving in dense traffic lane-changing scenario.
 
-## Teaching Experience
+### Teaching Experience
 - **ME 132, Dynamic Systems and Feedback**, UC Berkeley.
 
 ## Honors & Awards
