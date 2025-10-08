@@ -10,7 +10,7 @@ During my PhD, I worked on [Honda Research Institute (HRI)](https://usa.honda-ri
 
 ## Research Interests
 
-- **Robot Learning:** Reinforcement learning for robotics applications
+- **Robot Learning:** Reinforcement learning for robot control and planning
 - **Foundation Models:** Application of large-scale models in robot learning
 - **Multi-Agent Systems:** Multi-agent reinforcement learning and coordination
 - **Safe and Interacive Motion Planning:** Risk-sensitive and interaction-aware planning

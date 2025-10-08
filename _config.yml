@@ -2,7 +2,8 @@
 title: Kanghyun Ryu
 position: Ph.D. Student
 affiliation: University of California, Berkeley
-email: kanghyun.ryu (at) berkeley.edu
+affiliation_link: https://me.berkeley.edu/
+email: kanghyun.ryu@berkeley.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -38,7 +39,7 @@ font: "Sans Serif" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
+google_analytics: G-1X17R4HQ74
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
