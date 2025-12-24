@@ -17,9 +17,9 @@ During my Ph.D., I worked at the [Honda Research Institute (HRI)](https://usa.ho
 
 ## News
 
-- **[Jul, 2025]** Our paper from Honda Research Institute "IANN-MPPI: Interaction-Aware Neural Network-Enhanced Model Predictive Path Integral Approach for Autonomous Driving" got accepted at the International Conference on Intelligent Transportation Systems (ITSC) 2025!
-- **[May, 2025]** I am attending the International Conference on Robotics and Automation (ICRA) 2025 in Atlanta to present our work "CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills using Large Language Models"!
-- **[Apr, 2025]** Our paper "DDAT: Diffusion policies enforcing Dynamically Admissible robot Trajectories" got accepted at the Robotics: Science and Systems (RSS), 2025!
+- **[Dec, 2025]** I passed my qualifying exam and am now officially PhD candidate! 
+- **[Jul, 2025]** Our research proposal on foundation model guided robot learning accepted as Google-BAIR Commons project!
+- **[May, 2025]** I presented  our work "CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills using Large Language Models" at International Conference on Robotics and Automation (ICRA), 2025!
 
 {% include_relative _includes/publications.md %}
 
