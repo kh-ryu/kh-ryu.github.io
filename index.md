@@ -17,9 +17,9 @@ During my Ph.D., I worked at the [Honda Research Institute (HRI)](https://usa.ho
 
 ## News
 
+- **[May, 2026]** I am excited to announce that I will be joining the Amazon Personal Robotics Group as a Applied Scientist intern for the summer of 2026!
 - **[Dec, 2025]** I passed my qualifying exam and am now officially PhD candidate! 
 - **[Jul, 2025]** Our research proposal on foundation model guided robot learning accepted as Google-BAIR Commons project!
-- **[May, 2025]** I presented  our work "CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills using Large Language Models" at International Conference on Robotics and Automation (ICRA), 2025!
 
 {% include_relative _includes/publications.md %}
 
