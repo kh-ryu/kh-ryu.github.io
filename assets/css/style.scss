@@ -1,4 +1,6 @@
 ---
 ---
 
+{% if site.auto_dark_mode == false %}$auto-dark-mode: false;{% else %}$auto-dark-mode: true;{% endif %}
+
 @import "minimal-light";

@@ -1,6 +1,6 @@
 ## Services
 
-<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+<h4>Conference Reviewers</h4>
 
 <ul style="margin:0 0 5px;">
   <li><a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra"><autocolor>IEEE International Conference on Robotics and Automation (ICRA)</autocolor></a></li>
@@ -12,7 +12,7 @@
   <li><a href="http://ifrr.org/isrr"><autocolor>International Symposium on Robotics Research (ISRR)</autocolor></a></li>
 </ul>
 
-<h4 style="margin:0 10px 0;">Journal Reviewers</h4>
+<h4>Journal Reviewers</h4>
 
 <ul style="margin:0 0 40px;">
   <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=87"><autocolor>Transactions on Control System Technology (TCST)</autocolor></a></li>

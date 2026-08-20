@@ -1,0 +1,10 @@
+// Emits `@media (prefers-color-scheme: dark)` blocks only when the site's
+// `auto_dark_mode` setting is on. The assets/css/*.scss entry points set
+// $auto-dark-mode from _config.yml before importing this partial.
+$auto-dark-mode: true !default;
+
+@mixin dark-mode {
+  @if $auto-dark-mode {
+    @media (prefers-color-scheme: dark) { @content; }
+  }
+}
