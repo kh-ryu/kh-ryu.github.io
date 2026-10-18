@@ -23,8 +23,8 @@ During my Ph.D., I worked at the [Amazon Industrial Robotics Group (IRG)](https:
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
-
 {% include_relative _includes/experiences.md %}
 
 {% include_relative _includes/honors.md %}
+
+{% include_relative _includes/services.md %}

@@ -4,7 +4,8 @@
 
 <ul style="margin:0 0 5px;">
   <li><a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra"><autocolor>IEEE International Conference on Robotics and Automation (ICRA)</autocolor></a></li>
-  <li><a href="https://www.iros.org/"><autocolor>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</autocolor></a></li>
+  <li><a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/iros"><autocolor>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</autocolor></a></li>
+  <li><a href="https://www.corl.org/"><autocolor>Conference on Robot Learning (CoRL)</autocolor></a></li>
   <li><a href="https://l4dc.web.ox.ac.uk/"><autocolor>Learning for Dynamics and Control (L4DC)</autocolor></a></li>
   <li><a href="https://ieeexplore.ieee.org/xpl/conhome/1000188/all-proceedings"><autocolor>Conference on Decisions and Control (CDC)</autocolor></a></li>
   <li><a href="https://ieee-itsc.org/"><autocolor>International Conference on Intelligent Transportation System (ITSC)</autocolor></a></li>
@@ -15,6 +16,7 @@
 <h4>Journal Reviewers</h4>
 
 <ul style="margin:0 0 40px;">
+  <li><a href="https://www.ieee-ras.org/publications/t-ro"><autocolor>IEEE Transactions on Robotics (T-RO)</autocolor></a></li>
   <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=87"><autocolor>Transactions on Control System Technology (TCST)</autocolor></a></li>
   <li><a href="https://www.ieee-ras.org/publications/ra-l"><autocolor>Robotics and Automation Letters (RA-L)</autocolor></a></li>
 </ul>
