@@ -1,5 +1,27 @@
 main:
 
+  - title: "PopGen: Generating Semantically Diverse Populations for Zero-Shot Coordination"
+    authors: P. Teiletche*, <strong>K. Ryu*</strong>, K. Park, D. Tirumala, M. Wulfmeier, and N. Mehr (*Equal contribution)
+    conference_short: Preprint
+    conference: Preprint, 2026.
+    arxiv: "https://arxiv.org/abs/2610.15969"
+    code: "https://github.com/labicon/PopGen"
+    # page: "#"
+    # bibtex: "#"
+    image: "assets/img/PopGen_teaser.gif"
+    # notes: ""
+
+  - title: "HuGo: LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation"
+    authors: S. Choi, S. Ye, N. Bui, A. Shrivastava, <strong>K. Ryu</strong>, D. Tirumala, M. Wulfmeier, and N. Mehr
+    conference_short: Preprint
+    conference: Preprint, 2026.
+    arxiv: "https://arxiv.org/abs/2609.30594"
+    code: "https://github.com/labicon/HuGo"
+    page: "https://iconlab.negarmehr.com/HuGo/"
+    # bibtex: "#"
+    image: "assets/img/HuGo_teaser.gif"
+    # notes: ""
+
   - title: "CRAFT: Coaching Reinforcement Learning Autonomously using Foundation Models for Multi-Robot Coordination Tasks"
     authors: S. Choi*, <strong>K. Ryu*</strong>, J. Ock, and N. Mehr (*Equal contribution)
     conference_short: Preprint
